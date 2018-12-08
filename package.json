@@ -1,0 +1,51 @@
+{
+  "name": "backend-graph-model",
+  "version": "1.0.0",
+  "description": "Implementation of backend graph model.",
+  "main": "./dist/main.js",
+  "scripts": {
+    "setup": "npm install -g gulp-cli; npm i",
+    "test": "mocha --reporter spec --require ts-node/register \"test/**/*test.ts\"",
+    "start": "node dist/main.js"
+  },
+  "author": "Ahmed elSayed",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^8.10.38",
+    "@types/sinon": "^5.0.7",
+    "chai": "^4.2.0",
+    "commander": "^2.19.0",
+    "gulp": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^3.2.4",
+    "gulp-util": "^3.0.8",
+    "mocha": "^4.1.0",
+    "mocha-typescript": "^1.1.17",
+    "nyc": "^11.9.0",
+    "sinon": "^7.1.1",
+    "source-map-support": "^0.5.9",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.9.2",
+    "uglify-js": "^2.6.0"
+  },
+  "dependencies": {
+    "@types/bluebird": "^3.5.24",
+    "@types/es6-promise": "0.0.33",
+    "@types/lodash": "^4.14.118",
+    "@types/mathjs": "0.0.35",
+    "@types/winston": "^2.4.4",
+    "bluebird": "^3.5.3",
+    "firebase": "^5.7.0",
+    "firebase-admin": "^5.13.1",
+    "formulajs": "^1.0.8",
+    "grpc": "^1.16.1",
+    "lodash": "^4.17.11",
+    "mathjs": "^3.20.2",
+    "node-pre-gyp": "^0.12.0",
+    "normalize-path": "^2.1.1",
+    "promise": "^8.0.2",
+    "winston": "^3.1.0"
+  }
+}

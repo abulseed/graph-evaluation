@@ -1,0 +1,20 @@
+{
+    "files": [
+        "src/*.ts",
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "outDir": "${workspaceRoot}/dist",
+        "sourceMap": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitReturns": true,
+        "mapRoot": "${workspaceRoot}/maps",
+        "noImplicitAny": false,
+        "target": "es5",
+        "lib": ["es5"]
+    }
+}
